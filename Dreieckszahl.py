@@ -1,3 +1,5 @@
+# Mit dieser Funktion wird berechnet, ob eine Zahl eine Dreieckszahl ist.
+
 def is_triangular(x):
     triangular = False
 
@@ -9,5 +11,6 @@ def is_triangular(x):
                 triangular = True
 
     print(triangular)
+
 
 is_triangular(14)
