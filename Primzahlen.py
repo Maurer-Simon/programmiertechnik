@@ -1,4 +1,4 @@
-
+#Check if gien number is a prime number
 def is_prime(x):
     prime = True
 

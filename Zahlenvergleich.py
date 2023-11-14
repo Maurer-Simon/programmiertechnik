@@ -1,3 +1,4 @@
+#Algorithm to search for lowest and highest number from input
 def get_min_max(a, b, c, d, e, f):
     _max_ = None
     _min_ = None
@@ -14,16 +15,18 @@ def get_min_max(a, b, c, d, e, f):
     return _min_, _max_
 
 
+#Calculate how often x can be divided by y and return result plus remainder from division
 def division_mit_rest(x, y):
-    result = 0
+    count = 0
     remainder = 0
 
     while y <= x:
-        result += 1
+        count += 1
         x = x - y
 
     remainder = x
+    return count, remainder
 
-    return result, remainder
 
-division_mit_rest(21, 4)
+print(division_mit_rest(21, 4))
+print(get_min_max(25, 12, 7, 90, 146, 2))

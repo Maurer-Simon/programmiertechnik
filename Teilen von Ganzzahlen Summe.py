@@ -1,3 +1,4 @@
+#is_odd function is used to check if a number is odd
 def is_odd(x):
     result = None
 
@@ -6,7 +7,7 @@ def is_odd(x):
     else:
         return True
 
-
+#count_loop increases count by 1 everytime x is divided by 2
 def count_loop(x):
     count = 0;
 
@@ -16,4 +17,4 @@ def count_loop(x):
 
     print(count)
 
-count_loop(96)
+count_loop(97)
