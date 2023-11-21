@@ -30,7 +30,7 @@ def digits_factorial(n):
 
     
 
-print(digits_factorial(3000))
+print(digits_factorial(50000))
 
 """def digits_factorial(n):
     sumfactorials = 0

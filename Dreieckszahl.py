@@ -1,5 +1,5 @@
 #Triangle numbers are numbers which sums up from natural number from 1 to n. Example: 10 = 1+2+3+4 or 15 = 1+2+3+4+5
-
+"""
 def is_triangular(x):
     triangular = False
 
@@ -12,7 +12,4 @@ def is_triangular(x):
             if (i*(i+1))/2 == x:
                 triangular = True
                 break
-    return triangular
-
-
-print(is_triangular(54))
+    return triangular"""

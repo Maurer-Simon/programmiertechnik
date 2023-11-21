@@ -29,4 +29,4 @@ def checkexpo(n, expo):
         return False
 
 
-print(digitfifthpower(4))
+print(digitfifthpower(5))
